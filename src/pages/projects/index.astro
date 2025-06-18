@@ -1,15 +1,20 @@
 ---
-import { getCollection } from "astro:content";
+// The commented out sections in the frontmatter and the code render a projects list
+// that in the future may be used, but for I have provided links to other sites for ease of design
+// and time. 
+
+
+// import { getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
-import ArrowCard from "@components/ArrowCard.astro";
+// import ArrowCard from "@components/ArrowCard.astro";
 import { PROJECTS } from "@consts";
 import Link from "@components/Link.astro";
 
 
-const projects = (await getCollection("projects"))
-  .filter(project => !project.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+// const projects = (await getCollection("projects"))
+//   .filter(project => !project.data.draft)
+//   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
 <PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
@@ -24,8 +29,7 @@ const projects = (await getCollection("projects"))
         <li><Link href="https://github.com/Danielle73/" aria-lable="my github profile" external>Github </Link></li>
       </p>
       
-
-      <ul class="animate flex flex-col gap-4">
+      <!-- <ul class="animate flex flex-col gap-4">
         {
           projects.map((project) => (
             <li>
@@ -33,7 +37,7 @@ const projects = (await getCollection("projects"))
             </li>
           ))
         }
-      </ul>
+      </ul> -->
     </div>
   </Container>
 </PageLayout>
