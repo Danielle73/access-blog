@@ -4,6 +4,8 @@ import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import { PROJECTS } from "@consts";
+import Link from "@components/Link.astro";
+
 
 const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)
@@ -16,6 +18,13 @@ const projects = (await getCollection("projects"))
       <div class="animate font-semibold text-black dark:text-white">
         Projects
       </div>
+
+      <p>For any of my projects visit: 
+        <li><Link href="https://www.daniellelee.co.uk/" aria-label="My frontend portfolio page" external> Portfolio page</Link></li>
+        <li><Link href="https://github.com/Danielle73/" aria-lable="my github profile" external>Github </Link></li>
+      </p>
+      
+
       <ul class="animate flex flex-col gap-4">
         {
           projects.map((project) => (
