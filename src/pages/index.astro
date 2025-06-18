@@ -12,10 +12,10 @@ const blog = (await getCollection("blog"))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0,SITE.NUM_POSTS_ON_HOMEPAGE);
 
-const projects = (await getCollection("projects"))
-  .filter(project => !project.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0,SITE.NUM_PROJECTS_ON_HOMEPAGE);
+// const projects = (await getCollection("projects"))
+//   .filter(project => !project.data.draft)
+//   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+//   .slice(0,SITE.NUM_PROJECTS_ON_HOMEPAGE);
 
 // const allwork = (await getCollection("work"))
 //   .sort((a, b) => new Date(b.data.dateStart).valueOf() - new Date(a.data.dateStart).valueOf())
@@ -113,7 +113,10 @@ const projects = (await getCollection("projects"))
         </ul>
       </section> -->
 
-      <section class="animate space-y-6">
+
+<!-- Recent projects section commented out for design and time -->
+
+      <!-- <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
             Recent projects
@@ -129,7 +132,7 @@ const projects = (await getCollection("projects"))
             </li>
           ))}
         </ul>
-      </section>
+      </section> -->
 
       <section class="animate space-y-4">
         <h5 class="font-semibold text-black dark:text-white">
@@ -137,8 +140,8 @@ const projects = (await getCollection("projects"))
         </h5>
         <article>
           <p>
-            If you want to get in touch with me about something or just to say hi,
-            reach out on social media or send me an email.
+            If you would like to get in touch with me about something or just to say hi,
+            reach out using the links below or send me an email.
           </p>
         </article>
         <ul class="flex flex-wrap gap-2">
