@@ -1,10 +1,12 @@
 ---
 title: 'Re-thinking digital accessibility'
-description: 'Understanding disabiling design'
-date: '17 June 2025' 
-draft: true
+description: 'Encountering disabiling design'
+date: '20 June 2025' 
+draft: false
 
 ---
+
+<!--Changing Date changes display on the webpage accordingly-->
 
 <!--
 
