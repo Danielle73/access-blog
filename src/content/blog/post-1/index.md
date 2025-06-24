@@ -16,9 +16,9 @@ Writing points:
 
 • What surprised me most about accessibility when I started learning -->
 
-> Web accessibility means that websites, tools and technologies are developed so that people with disabilities can use them. 
-> 
-> -[w3.org](https://www.w3.org/WAI/fundamentals/accessibility-intro/#what)
+*"Web accessibility means that websites, tools and technologies are developed so that people with disabilities can use them."* 
+
+-- [w3.org](https://www.w3.org/WAI/fundamentals/accessibility-intro/#what)
 
 
 Before learning about web accessibility, it hadn't been a topic that I thought much about as a front-end developer. When coding, I aimed to follow best practices such as providing alternative text when using an image, or ensuring that the pages I coded were size responsive when used across different devices. As far as accessibility went this was the extent of my understanding.
