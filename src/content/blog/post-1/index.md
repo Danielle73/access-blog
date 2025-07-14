@@ -1,7 +1,7 @@
 ---
 title: '1. What is Web Accessibility?'
 description: 'Learning about and understanding what web accessibility is.'
-date: '17 June 2025' 
+date: '14 July 2025' 
 draft: false
 ---
  <!-- Dont forget to change the date above-->
