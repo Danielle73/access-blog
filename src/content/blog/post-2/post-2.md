@@ -1,7 +1,7 @@
 ---
 title: '2. Re-thinking digital accessibility.'
 description: 'Encountering disabling design.'
-date: '20 June 2025' 
+date: '29 July 2025' 
 draft: false
 
 ---
