@@ -1,7 +1,7 @@
 ---
 title: '3. P.O.U.R Principles.'
 description: 'Implementing P.O.U.R guidelines.'
-date: '18 August 2025' 
+date: '19 August 2025' 
 draft: false
 
 ---
