@@ -1,16 +1,16 @@
 ---
 title: '3. P.O.U.R Principles.'
 description: 'Implementing P.O.U.R guidelines.'
-date: '25 June 2025' 
-draft: true
+date: '18 August 2025' 
+draft: false
 
 ---
 
-Knowing where to start when it comes to integrating  <abbr title = "Web Content Accessibility Guidelines">WCAG </abbr> is admittedly overwhelming. One of the main questions I asked myself was how I could ensure to make the user experience easy and inclusive across a variety of needs?
+Figuring out where to start when it comes to integrating  <abbr title = "Web Content Accessibility Guidelines">WCAG </abbr> is admittedly overwhelming. One of the main questions I asked myself was: *how I could ensure the user experience was easy and inclusive across a variety of needs?*
 
-Learning about how user needs overlap made things easier in the sense that the benefit of one can be extended to the benefit of all. However the nagging feeling that something might get left off the list when it comes to accessibility still persisted. 
+Knowing that multiple user needs can often overlap did make things easier, however the nagging feeling that something might get left off the list when it comes to applying accessible design still persisted. 
 
-Thankfully there are four great tenets to consider when it comes to implementing <abbr title = "Web Content Accessibility Guidelines">WCAG </abbr>, and luckily they make an easy to remember acronym: [P.O.U.R](https://www.w3.org/WAI/standards-guidelines/wcag/glance/)  
+Thankfully there are four great tenets to consider when it comes to implementing <abbr title = "Web Content Accessibility Guidelines">WCAG</abbr>, and luckily they make an easy to remember acronym: [P.O.U.R](https://www.w3.org/WAI/standards-guidelines/wcag/glance/)  
 
 P.O.U.R stands for: 
 
@@ -26,8 +26,8 @@ P.O.U.R stands for:
 **Robust**: Can content be understood by a wide range of varying user tools? 
 - Have I made sure to use clear HTML elements that state what a component on my webpage does for someone using assistive technology? 
 
-At a very fundamental level I was already off to a good start, having in my own projects provided alternative image descriptions, pages with clear navigation bars, text that I hoped was clear to understand, and status messages alerting to the success or failures depending on user interactions. Though I wasn't building large scale applications, it was encouraging to know that I had taken on these considerations at some level. 
+At a very fundamental level I was already off to a good start, having in my own projects provided alternative image descriptions, pages with clear navigation bars, text that I hoped was clear to understand, and status messages alerting to the successes or failures dependent on user interactions. Though I wasn't building large scale applications, it was encouraging to know that I had taken on these considerations at some level. 
 
-Learning through each acronym continued to enhance how the overlap of needs didn't need to be as complicated as I previously thought. Admittedly the Robust principle is where I felt the least certain of how to implement. Here I was introduced to <abbr title=" Web Accessibility Initiative - Accessible Rich Internet Applications"> WAI-ARIA </abbr>, a completely new concept that felt like I needed to completely re-write my <abbr title="HyperText Markup Language"> HTML </abbr>. It was like discovering that there was another version of English. 
+Working through each acronym highlighted that the overlap of user needs wasn't as complicated as I initially thought, until I reached Robust. This principle introduced me to <abbr title=" Web Accessibility Initiative - Accessible Rich Internet Applications"> WAI-ARIA</abbr>, which helps make web content more understandable to screen readers and other assistive tech. Robust didn't feel as tangible as other principles, especially as my use of assistive tech was limited. Initially it felt like discovering another version of English. Every word needed an explanation about why it was there, what it was doing and its relationship to the words around it. 
 
-After a deeper dive, and using tools such as WAVE (more of that in my next post), the Robust principle fell into place. I no longer had to overhaul my <abbr title="HyperText Markup Language"> HTML </abbr>, but instead ensure that my components had a clear name, role and value for assistive technologies to understand. Having a framework to work within made accessibility feel less like guesswork and more like good practice - a reliable way to approach accessibility systematically. 
+After a deeper dive, and using tools such as [WAVE](https://wave.webaim.org/) (more of that in my next post), the Robust principle eventually fell into place. I no longer had to fear replacing every <abbr title="HyperText Markup Language"> HTML</abbr> file I'd ever written, but instead ensure that my components had a clear name, role and value for assistive technologies to understand. Having a framework to work within made accessibility feel less like guesswork and more like good practice - a reliable way to approach accessibility systematically. 
