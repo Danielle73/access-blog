@@ -15,7 +15,7 @@ But then when you really *really* think about it, [Apple](https://en.wikipedia.o
 
 Following this thread of thought, it becomes clear why I rarely find websites with scores as good as the BBC or Apple’s, and why single digit error counts will get an impressed ‘hmm’ from me. Simply put, it comes full circle on how we [rethink accessibility](https://www.skiptocontent.co.uk/blog/post-2/post-2). 
 
-How do I know their scores, you ask? Enter WAVE, a tool that assesses a website, and provides a summary of elements on that website that are conflicting with accessibility requirements. It’s a browser extension you add to your browser, that with one click evaluates the web page you are visiting. If you feel savvy enough, I recommend downloading and giving it a try!
+How do I know their scores, you ask? Enter [WAVE](https://wave.webaim.org/), a tool that assesses a website, and provides a summary of elements on that website that are conflicting with accessibility requirements. It’s a browser extension you add to your browser, that with one click evaluates the web page you are visiting. If you feel savvy enough, I recommend downloading and giving it a try!
 
 ![Screenshot of the WAVE tool being used on the BBC website](./WAVEtestingtool.png) 
 
