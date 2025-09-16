@@ -18,6 +18,7 @@ Following this thread of thought, it becomes clear why I rarely find websites wi
 How do I know their scores, you ask? Enter [WAVE](https://wave.webaim.org/), a tool that assesses a website, and provides a summary of elements on that website that are conflicting with accessibility requirements. It’s a browser extension you add to your browser, that with one click evaluates the web page you are visiting. If you feel savvy enough, I recommend downloading and giving it a try!
 
 ![Screenshot of the WAVE tool being used on the BBC website](./WAVEtestingtool.png) 
+*WAVE being used on the BBC website.*
 
 Errors can range from a missing form label - which means that the code for a form that you fill out, doesn't have a label for a section, which can be detrimental for people who rely upon screen readers to fill in the correct information, 
 
@@ -29,6 +30,7 @@ Errors can range from a missing form label - which means that the code for a for
 to contrasting colour errors - where the colours chosen by the website will affect all users, especially those with visual impairments. 
 
 ![Screenshot of the same sentence in high and low contrasting colours](./ContrastText.png)
+*High and low contrasting text*
 
 Surfing the web with WAVE has truly been an insightful learning experience. It’s a great tool for gaining insight into where websites have overlooked accessibility features and how they can rectify these oversights. 
 
