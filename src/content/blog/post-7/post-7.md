@@ -15,8 +15,6 @@ This is where alerts come to play. WAVE alerts warn you of areas of concern on y
 Enter Vsphera, a website that helps to streamline the collaborative writing of STEM grant applications. And as an intern at Vsphera, and self-professed accessibility auditor, I audited our website.
 
 ![Screenshot of Vsphera score](./GrantFlowScore.png) 
-*Vsphera Score*
-
 
 *Vsphera WAVE score.*
 
