@@ -10,12 +10,12 @@ A hard truth I’ve had to accept as I audit accessibility is that there is no s
 
 Fixing critical errors should always be a priority especially as it can really improve user experience. However WAVE’s goal is to highlight accessibility issues to be *evaluated in context*.
 
-This is where alerts come to play. WAVE alerts warn you of areas of concern on your webpage that may be an issue for accessibility, but needs developer discretion as to how much of an impact it will have - especially for a website that is a lot more in-depth than my own portfolio page.
+This is where alerts come to play. WAVE alerts warn you of areas of concern on your webpage that may be an issue for accessibility, but needs developer discretion as to how much of an impact it will have - especially important for a website that is a lot more in-depth than my own portfolio page.
 
 Enter Grantflow.io, a website that helps to write grants for academia. And as the intern at Grantflow, and self-professed accessibility auditor, I audited our website.
 
+<img src="./GrantFlowScore.png" alt="Screenshot of the Grantflow WAVE score" width="275" />
 
-![Screenshot of the Grantflow WAVE score](./GrantFlowScore.png) 
 *GrantFlow WAVE score.*
 
 Scoring a low score of three errors and zero contrasting errors meant that grantflow were laying great accessibility foundations. In fact the three errors that were flagged by WAVE were very similar to the ones I had within my own website, and what I suspect may also affect many other websites. 
