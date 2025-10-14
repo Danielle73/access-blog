@@ -8,7 +8,7 @@ draft: false
 
 A hard truth I’ve had to accept as I audit accessibility is that there is no such thing as a perfect score. In my last post I worked to get all my errors down to zero, but the true reality of accessibility is that it's not just about numbers.
 
-Fixing critical errors should always be a priority especially as it can really improve user experience and it is WAVE’s goal is to not only highlight critical errors, but accessibility issues to be *evaluated in context*.
+Fixing critical errors should always be a priority especially as it can really improve user experience, and its WAVE’s goal to not only highlight critical errors, but accessibility issues to be *evaluated in context*.
 
 This is where alerts come to play. WAVE alerts warn you of areas of concern on your webpage that may be an issue for accessibility, but needs developer discretion as to how much of an impact it will have - especially important for a website that is a lot more in-depth than my own portfolio page.
 
